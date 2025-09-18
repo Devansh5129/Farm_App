@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import cropsData from '@/assets/data/crops.json';
 
 const ESP32_API_IP = "192.168.202.52";
 const ESP32_CAM_STREAM_IP = "192.168.202.120";
@@ -35,6 +36,19 @@ export function useFarmData() {
   const [thresholds, setThresholds] = useState<Thresholds>({ temp: '30.0', moist: '40' });
   const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
   const [alerts, setAlerts] = useState<Alert[]>([]);
+
+  // Get crop recommendations based on current conditions
+  const getCropRecommendations = useCallback((temp: number, moisture: number, humidity: number) => {
+    return cropsData.filter(crop => {
+      const tempRange = crop.climate.optimal_temp_c.split('-').map(t => parseInt(t));
+      const moistureRange = crop.climate.soil_moisture_percent.split('-').map(m => parseInt(m));
+      const humidityRange = crop.climate.humidity_percent.split('-').map(h => parseInt(h));
+      
+      return temp >= tempRange[0] && temp <= tempRange[1] &&
+             moisture >= moistureRange[0] && moisture <= moistureRange[1] &&
+             humidity >= humidityRange[0] && humidity <= humidityRange[1];
+    }).slice(0, 3); // Return top 3 recommendations
+  }, []);
 
   const checkStatus = useCallback(async () => {
     // Check ESP32 API status
@@ -98,6 +112,22 @@ export function useFarmData() {
       }
       setAlerts(newAlerts);
       
+      // Add crop recommendations to alerts if conditions are good
+      const recommendations = getCropRecommendations(
+        data.sensors.insideTemp,
+        data.sensors.moisture,
+        data.sensors.insideHumidity
+      );
+      
+      if (recommendations.length > 0 && newAlerts.length === 0) {
+        newAlerts.push({
+          id: 'crop-recommendation',
+          type: 'info',
+          message: `Ideal conditions for: ${recommendations.map(c => c.crop_name).join(', ')}`,
+          timestamp: new Date()
+        });
+      }
+      
     } catch (error) {
       console.error("Failed to fetch sensor data:", error);
       setEsp32Status('disconnected');
@@ -127,6 +157,7 @@ export function useFarmData() {
     lastUpdate,
     alerts,
     fetchData,
-    setEsp32Status
+    setEsp32Status,
+    getCropRecommendations
   };
 }

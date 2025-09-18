@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { TriangleAlert as AlertTriangle } from 'lucide-react-native';
+import { TriangleAlert as AlertTriangle, Info } from 'lucide-react-native';
 
 interface Alert {
   id: string;
@@ -14,12 +14,16 @@ interface AlertCardProps {
 }
 
 export function AlertCard({ alert }: AlertCardProps) {
+  const isInfo = alert.type === 'info';
+  const IconComponent = isInfo ? Info : AlertTriangle;
+  const iconColor = isInfo ? '#3B82F6' : '#F59E0B';
+  
   return (
-    <View style={styles.alertCard}>
-      <AlertTriangle size={20} color="#F59E0B" style={styles.alertIcon} />
+    <View style={[styles.alertCard, isInfo && styles.infoCard]}>
+      <IconComponent size={20} color={iconColor} style={styles.alertIcon} />
       <View style={styles.alertContent}>
-        <Text style={styles.alertMessage}>{alert.message}</Text>
-        <Text style={styles.alertTimestamp}>{alert.timestamp.toLocaleTimeString()}</Text>
+        <Text style={[styles.alertMessage, isInfo && styles.infoMessage]}>{alert.message}</Text>
+        <Text style={[styles.alertTimestamp, isInfo && styles.infoTimestamp]}>{alert.timestamp.toLocaleTimeString()}</Text>
       </View>
     </View>
   );
@@ -38,6 +42,11 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#FED7AA',
   },
+  infoCard: {
+    backgroundColor: '#EFF6FF',
+    borderLeftColor: '#3B82F6',
+    borderColor: '#BFDBFE',
+  },
   alertIcon: {
     marginRight: 12,
     marginTop: 2,
@@ -55,5 +64,11 @@ const styles = StyleSheet.create({
   alertTimestamp: {
     fontSize: 12,
     color: '#D97706',
+  },
+  infoMessage: {
+    color: '#1E40AF',
+  },
+  infoTimestamp: {
+    color: '#3B82F6',
   },
 });

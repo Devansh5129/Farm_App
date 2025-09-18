@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { Chrome as Home, ChartBar as BarChart3, Video, Settings } from 'lucide-react-native';
+import { Chrome as Home, ChartBar as BarChart3, Video, Settings, Sprout } from 'lucide-react-native';
 
 export default function TabLayout() {
   return (
@@ -46,6 +46,15 @@ export default function TabLayout() {
           title: 'Live View',
           tabBarIcon: ({ size, color }) => (
             <Video size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="crops"
+        options={{
+          title: 'Crops',
+          tabBarIcon: ({ size, color }) => (
+            <Sprout size={size} color={color} />
           ),
         }}
       />
