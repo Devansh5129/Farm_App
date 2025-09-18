@@ -1,0 +1,1833 @@
+[
+  {
+    "crop_name": "Paddy (Rice)",
+    "region": [
+      "West Bengal",
+      "Uttar Pradesh",
+      "Punjab",
+      "Bihar",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Chhattisgarh",
+      "Odisha",
+      "Assam",
+      "Sikkim"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-27",
+      "rainfall_mm_per_year": "1200-1500",
+      "soil_type": "Clay loam",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-80"
+    },
+    "irrigation": {
+      "frequency": "Weekly",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK (120:60:40 kg/ha)"
+    },
+    "pests_diseases": [
+      "Brown planthopper",
+      "Blast"
+    ],
+    "market_info": {
+      "states": [
+        "WB",
+        "UP",
+        "Punjab",
+        "Bihar"
+      ],
+      "season": [
+        "Kharif",
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Wheat",
+    "region": [
+      "Uttar Pradesh",
+      "Punjab",
+      "Haryana",
+      "Madhya Pradesh",
+      "Bihar",
+      "Rajasthan",
+      "Gujarat",
+      "Maharashtra"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-25",
+      "rainfall_mm_per_year": "500-1000",
+      "soil_type": "Alluvial",
+      "soil_moisture_percent": "20-25",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "3-4 times per season",
+      "method": [
+        "Flood",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK (120:60:40 kg/ha)"
+    },
+    "pests_diseases": [
+      "Rust",
+      "Aphids"
+    ],
+    "market_info": {
+      "states": [
+        "UP",
+        "Punjab",
+        "Haryana",
+        "MP"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Maize",
+    "region": [
+      "Karnataka",
+      "Madhya Pradesh",
+      "Bihar",
+      "Andhra Pradesh",
+      "Telangana",
+      "Maharashtra",
+      "Rajasthan",
+      "Uttar Pradesh",
+      "Sikkim"
+    ],
+    "climate": {
+      "optimal_temp_c": "18-27",
+      "rainfall_mm_per_year": "500-800",
+      "soil_type": "Sandy loam",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-70"
+    },
+    "irrigation": {
+      "frequency": "Weekly",
+      "method": [
+        "Rainfed",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK (100:50:50 kg/ha)"
+    },
+    "pests_diseases": [
+      "Stem borer",
+      "Streak virus"
+    ],
+    "market_info": {
+      "states": [
+        "Karnataka",
+        "MP",
+        "Bihar"
+      ],
+      "season": [
+        "Kharif",
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Millet",
+    "region": [
+      "Rajasthan",
+      "Karnataka",
+      "Maharashtra",
+      "Uttar Pradesh",
+      "Gujarat",
+      "Tamil Nadu",
+      "Haryana"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "400-700",
+      "soil_type": "Sandy loam",
+      "soil_moisture_percent": "10-15",
+      "humidity_percent": "40-60"
+    },
+    "irrigation": {
+      "frequency": "10-12 days",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Shoot fly",
+      "Downy mildew"
+    ],
+    "market_info": {
+      "states": [
+        "Rajasthan",
+        "Karnataka"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Barley",
+    "region": [
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Haryana",
+      "Punjab"
+    ],
+    "climate": {
+      "optimal_temp_c": "12-25",
+      "rainfall_mm_per_year": "500-800",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "3 irrigations",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Rust",
+      "Smuts"
+    ],
+    "market_info": {
+      "states": [
+        "UP",
+        "Haryana"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Sugarcane",
+    "region": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Bihar",
+      "Gujarat",
+      "Punjab"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "1500-2500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-80"
+    },
+    "irrigation": {
+      "frequency": "10-15 days",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Borers",
+      "Red rot"
+    ],
+    "market_info": {
+      "states": [
+        "UP",
+        "Maharashtra"
+      ],
+      "season": [
+        "Annual"
+      ]
+    }
+  },
+  {
+    "crop_name": "Cotton",
+    "region": [
+      "Maharashtra",
+      "Gujarat",
+      "Telangana",
+      "Andhra Pradesh",
+      "Punjab",
+      "Haryana",
+      "Karnataka",
+      "Madhya Pradesh"
+    ],
+    "climate": {
+      "optimal_temp_c": "21-30",
+      "rainfall_mm_per_year": "600-1200",
+      "soil_type": "Black soil",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "15-20 days",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Bollworm"
+    ],
+    "market_info": {
+      "states": [
+        "Maharashtra",
+        "Gujarat"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Groundnut",
+    "region": [
+      "Gujarat",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Karnataka",
+      "Maharashtra",
+      "Rajasthan"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "500-1000",
+      "soil_type": "Sandy loam",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "10-12 days",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Leaf spot"
+    ],
+    "market_info": {
+      "states": [
+        "Gujarat",
+        "AP"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Soybean",
+    "region": [
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Rajasthan",
+      "Karnataka",
+      "Telangana"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "600-1000",
+      "soil_type": "Clay loam",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-70"
+    },
+    "irrigation": {
+      "frequency": "10-12 days",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Rust"
+    ],
+    "market_info": {
+      "states": [
+        "MP",
+        "Maharashtra"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Mustard",
+    "region": [
+      "Rajasthan",
+      "Uttar Pradesh",
+      "Haryana",
+      "Madhya Pradesh",
+      "Gujarat",
+      "West Bengal"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-25",
+      "rainfall_mm_per_year": "400-800",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "3 irrigations",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Aphids"
+    ],
+    "market_info": {
+      "states": [
+        "Rajasthan",
+        "UP"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Banana",
+    "region": [
+      "Tamil Nadu",
+      "Maharashtra",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Assam",
+      "Kerala"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "1000-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Bunchy top"
+    ],
+    "market_info": {
+      "states": [
+        "TN",
+        "Maharashtra"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Mango",
+    "region": [
+      "Uttar Pradesh",
+      "Andhra Pradesh",
+      "Bihar",
+      "Karnataka",
+      "West Bengal",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "climate": {
+      "optimal_temp_c": "24-30",
+      "rainfall_mm_per_year": "750-2500",
+      "soil_type": "Alluvial",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "15-20 days",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Fruit fly"
+    ],
+    "market_info": {
+      "states": [
+        "UP",
+        "Andhra",
+        "Bihar"
+      ],
+      "season": [
+        "Summer"
+      ]
+    }
+  },
+  {
+    "crop_name": "Orange",
+    "region": [
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Punjab",
+      "Rajasthan",
+      "Nagaland",
+      "Sikkim"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "1000-2000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-70"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Flood",
+        "Drip"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK standard dose"
+    },
+    "pests_diseases": [
+      "Canker"
+    ],
+    "market_info": {
+      "states": [
+        "Nagpur",
+        "Sikkim"
+      ],
+      "season": [
+        "Winter"
+      ]
+    }
+  },
+  {
+    "crop_name": "Potato",
+    "region": [
+      "Uttar Pradesh",
+      "West Bengal",
+      "Bihar",
+      "Punjab",
+      "Gujarat",
+      "Madhya Pradesh"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "500-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Late blight"
+    ],
+    "market_info": {
+      "states": [
+        "UP",
+        "WB",
+        "Bihar"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Tomato",
+    "region": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Odisha",
+      "Gujarat",
+      "Madhya Pradesh",
+      "West Bengal",
+      "Bihar"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "500-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Fruit borer"
+    ],
+    "market_info": {
+      "states": [
+        "AP",
+        "Karnataka"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Onion",
+    "region": [
+      "Maharashtra",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Gujarat",
+      "Bihar",
+      "Rajasthan"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "500-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Thrips"
+    ],
+    "market_info": {
+      "states": [
+        "Maharashtra",
+        "Karnataka"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Cabbage",
+    "region": [
+      "West Bengal",
+      "Bihar",
+      "Orissa",
+      "Assam",
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "500-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Diamondback moth"
+    ],
+    "market_info": {
+      "states": [
+        "WB",
+        "Bihar"
+      ],
+      "season": [
+        "Winter"
+      ]
+    }
+  },
+  {
+    "crop_name": "Cauliflower",
+    "region": [
+      "West Bengal",
+      "Bihar",
+      "Orissa",
+      "Assam",
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "500-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Aphids"
+    ],
+    "market_info": {
+      "states": [
+        "WB",
+        "Bihar"
+      ],
+      "season": [
+        "Winter"
+      ]
+    }
+  },
+  {
+    "crop_name": "Brinjal",
+    "region": [
+      "West Bengal",
+      "Odisha",
+      "Bihar",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Andhra Pradesh"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "500-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Shoot and fruit borer"
+    ],
+    "market_info": {
+      "states": [
+        "WB",
+        "Odisha"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Okra",
+    "region": [
+      "West Bengal",
+      "Bihar",
+      "Odisha",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Gujarat"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "500-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Fruit borer"
+    ],
+    "market_info": {
+      "states": [
+        "WB",
+        "Bihar"
+      ],
+      "season": [
+        "Summer"
+      ]
+    }
+  },
+  {
+    "crop_name": "Chili",
+    "region": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Maharashtra",
+      "Tamil Nadu",
+      "West Bengal",
+      "Madhya Pradesh"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-30",
+      "rainfall_mm_per_year": "500-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Thrips"
+    ],
+    "market_info": {
+      "states": [
+        "AP",
+        "Karnataka"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Apple",
+    "region": [
+      "Himachal Pradesh",
+      "Jammu and Kashmir",
+      "Uttarakhand"
+    ],
+    "climate": {
+      "optimal_temp_c": "10-24",
+      "rainfall_mm_per_year": "1000-1250",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Scab"
+    ],
+    "market_info": {
+      "states": [
+        "HP",
+        "J&K"
+      ],
+      "season": [
+        "Summer"
+      ]
+    }
+  },
+  {
+    "crop_name": "Grapes",
+    "region": [
+      "Maharashtra",
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-35",
+      "rainfall_mm_per_year": "500-700",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Powdery mildew"
+    ],
+    "market_info": {
+      "states": [
+        "Maharashtra",
+        "Karnataka"
+      ],
+      "season": [
+        "Summer"
+      ]
+    }
+  },
+  {
+    "crop_name": "Papaya",
+    "region": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Gujarat",
+      "West Bengal",
+      "Kerala",
+      "Assam"
+    ],
+    "climate": {
+      "optimal_temp_c": "21-33",
+      "rainfall_mm_per_year": "1000-2000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Papaya mosaic"
+    ],
+    "market_info": {
+      "states": [
+        "AP",
+        "Karnataka"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Pineapple",
+    "region": [
+      "West Bengal",
+      "Assam",
+      "Kerala",
+      "Meghalaya",
+      "Tripura"
+    ],
+    "climate": {
+      "optimal_temp_c": "18-32",
+      "rainfall_mm_per_year": "1000-1500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "70-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Mealy bug"
+    ],
+    "market_info": {
+      "states": [
+        "WB",
+        "Assam"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Guava",
+    "region": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Bihar",
+      "Andhra Pradesh",
+      "Madhya Pradesh"
+    ],
+    "climate": {
+      "optimal_temp_c": "23-28",
+      "rainfall_mm_per_year": "1000-2000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Fruit fly"
+    ],
+    "market_info": {
+      "states": [
+        "UP",
+        "Maharashtra"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Litchi",
+    "region": [
+      "Bihar",
+      "West Bengal",
+      "Assam",
+      "Tripura",
+      "Uttar Pradesh"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-35",
+      "rainfall_mm_per_year": "1500-2000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "70-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Fruit borer"
+    ],
+    "market_info": {
+      "states": [
+        "Bihar",
+        "WB"
+      ],
+      "season": [
+        "Summer"
+      ]
+    }
+  },
+  {
+    "crop_name": "Pomegranate",
+    "region": [
+      "Maharashtra",
+      "Karnataka",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Tamil Nadu"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-35",
+      "rainfall_mm_per_year": "500-800",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Fruit borer"
+    ],
+    "market_info": {
+      "states": [
+        "Maharashtra",
+        "Karnataka"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Peach",
+    "region": [
+      "Jammu and Kashmir",
+      "Himachal Pradesh",
+      "Uttarakhand"
+    ],
+    "climate": {
+      "optimal_temp_c": "10-24",
+      "rainfall_mm_per_year": "1000-1250",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "60-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Leaf curl"
+    ],
+    "market_info": {
+      "states": [
+        "J&K",
+        "HP"
+      ],
+      "season": [
+        "Summer"
+      ]
+    }
+  },
+  {
+    "crop_name": "Turmeric",
+    "region": [
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Karnataka",
+      "West Bengal",
+      "Odisha",
+      "Maharashtra"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "1500-2250",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Rhizome rot"
+    ],
+    "market_info": {
+      "states": [
+        "AP",
+        "TN"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Ginger",
+    "region": [
+      "Kerala",
+      "Assam",
+      "West Bengal",
+      "Mizoram",
+      "Sikkim"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "1500-3000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-80"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Rhizome rot"
+    ],
+    "market_info": {
+      "states": [
+        "Kerala",
+        "Assam"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Cardamom",
+    "region": [
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "climate": {
+      "optimal_temp_c": "10-35",
+      "rainfall_mm_per_year": "1500-4000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-90"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Azhukal disease"
+    ],
+    "market_info": {
+      "states": [
+        "Kerala",
+        "Karnataka"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Coriander",
+    "region": [
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Gujarat",
+      "Tamil Nadu"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-25",
+      "rainfall_mm_per_year": "400-600",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Powdery mildew"
+    ],
+    "market_info": {
+      "states": [
+        "Rajasthan",
+        "MP"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Cumin",
+    "region": [
+      "Rajasthan",
+      "Gujarat"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-25",
+      "rainfall_mm_per_year": "300-500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "10-15",
+      "humidity_percent": "40-50"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Wilt"
+    ],
+    "market_info": {
+      "states": [
+        "Rajasthan",
+        "Gujarat"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Black Pepper",
+    "region": [
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "climate": {
+      "optimal_temp_c": "23-32",
+      "rainfall_mm_per_year": "2000-3000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-90"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Quick wilt"
+    ],
+    "market_info": {
+      "states": [
+        "Kerala",
+        "Karnataka"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Tea",
+    "region": [
+      "Assam",
+      "West Bengal",
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "climate": {
+      "optimal_temp_c": "18-30",
+      "rainfall_mm_per_year": "2000-3000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-90"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Blister blight"
+    ],
+    "market_info": {
+      "states": [
+        "Assam",
+        "WB"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Coffee",
+    "region": [
+      "Karnataka",
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-28",
+      "rainfall_mm_per_year": "1500-2500",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-90"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Coffee rust"
+    ],
+    "market_info": {
+      "states": [
+        "Karnataka",
+        "Kerala"
+      ],
+      "season": [
+        "Year-round"
+      ]
+    }
+  },
+  {
+    "crop_name": "Jute",
+    "region": [
+      "West Bengal",
+      "Bihar",
+      "Assam",
+      "Odisha",
+      "Meghalaya"
+    ],
+    "climate": {
+      "optimal_temp_c": "24-37",
+      "rainfall_mm_per_year": "1500-2500",
+      "soil_type": "Alluvial",
+      "soil_moisture_percent": "35-45",
+      "humidity_percent": "70-90"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Stem rot"
+    ],
+    "market_info": {
+      "states": [
+        "WB",
+        "Bihar"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Tobacco",
+    "region": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Karnataka",
+      "Uttar Pradesh",
+      "Bihar"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "500-1000",
+      "soil_type": "Sandy loam",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Black shank"
+    ],
+    "market_info": {
+      "states": [
+        "AP",
+        "Gujarat"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Lentil",
+    "region": [
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Bihar",
+      "West Bengal"
+    ],
+    "climate": {
+      "optimal_temp_c": "15-25",
+      "rainfall_mm_per_year": "600-1000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Wilt"
+    ],
+    "market_info": {
+      "states": [
+        "UP",
+        "MP"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Gram",
+    "region": [
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Maharashtra",
+      "Andhra Pradesh"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-25",
+      "rainfall_mm_per_year": "600-1000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Wilt"
+    ],
+    "market_info": {
+      "states": [
+        "MP",
+        "UP"
+      ],
+      "season": [
+        "Rabi"
+      ]
+    }
+  },
+  {
+    "crop_name": "Urad",
+    "region": [
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Rajasthan",
+      "Tamil Nadu"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "600-1000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Yellow mosaic"
+    ],
+    "market_info": {
+      "states": [
+        "MP",
+        "UP"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Moong",
+    "region": [
+      "Rajasthan",
+      "Maharashtra",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Tamil Nadu"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "600-1000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Yellow mosaic"
+    ],
+    "market_info": {
+      "states": [
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Arhar",
+    "region": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Karnataka",
+      "Gujarat"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "600-1000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Wilt"
+    ],
+    "market_info": {
+      "states": [
+        "UP",
+        "Maharashtra"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Sesame",
+    "region": [
+      "West Bengal",
+      "Maharashtra",
+      "Andhra Pradesh",
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "climate": {
+      "optimal_temp_c": "25-35",
+      "rainfall_mm_per_year": "500-650",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "10-15",
+      "humidity_percent": "40-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Phyllody"
+    ],
+    "market_info": {
+      "states": [
+        "WB",
+        "Maharashtra"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  },
+  {
+    "crop_name": "Sunflower",
+    "region": [
+      "Karnataka",
+      "Andhra Pradesh",
+      "Maharashtra",
+      "Haryana",
+      "Tamil Nadu"
+    ],
+    "climate": {
+      "optimal_temp_c": "20-30",
+      "rainfall_mm_per_year": "600-1000",
+      "soil_type": "Loamy",
+      "soil_moisture_percent": "18-22",
+      "humidity_percent": "50-60"
+    },
+    "irrigation": {
+      "frequency": "7-10 days",
+      "method": [
+        "Drip",
+        "Sprinkler"
+      ]
+    },
+    "fertilizer": {
+      "recommendation": "NPK balanced dose"
+    },
+    "pests_diseases": [
+      "Downy mildew"
+    ],
+    "market_info": {
+      "states": [
+        "Karnataka",
+        "AP"
+      ],
+      "season": [
+        "Kharif"
+      ]
+    }
+  }
+]
