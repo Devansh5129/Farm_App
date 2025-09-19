@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { Chrome as Home, ChartBar as BarChart3, Video, Settings, Sprout } from 'lucide-react-native';
+import { Chrome as Home, ChartBar as BarChart3, Video, Settings, Sprout, MessageCircle } from 'lucide-react-native';
 
 export default function TabLayout() {
   return (
@@ -55,6 +55,15 @@ export default function TabLayout() {
           title: 'Crops',
           tabBarIcon: ({ size, color }) => (
             <Sprout size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="ai-assistant"
+        options={{
+          title: 'AI Assistant',
+          tabBarIcon: ({ size, color }) => (
+            <MessageCircle size={size} color={color} />
           ),
         }}
       />

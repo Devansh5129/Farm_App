@@ -11,11 +11,12 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
-import { Thermometer, Droplets, Sun, Cloud, RefreshCw, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Leaf, Chrome as Home, Wind, Shield } from 'lucide-react-native';
+import { Thermometer, Droplets, Sun, Cloud, RefreshCw, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Leaf, Chrome as Home, Wind, Shield, MessageCircle } from 'lucide-react-native';
 import { DashboardCard } from '@/components/DashboardCard';
 import { StatusBadge } from '@/components/StatusBadge';
 import { AlertCard } from '@/components/AlertCard';
 import { useFarmData } from '@/hooks/useFarmData';
+import { router } from 'expo-router';
 
 export default function DashboardScreen() {
   const [refreshing, setRefreshing] = useState(false);
@@ -47,6 +48,10 @@ export default function DashboardScreen() {
     ? 'good' 
     : 'poor';
 
+  const openAIAssistant = () => {
+    triggerHaptic();
+    router.push('/ai-assistant');
+  };
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
@@ -88,6 +93,13 @@ export default function DashboardScreen() {
             <Text style={styles.refreshButtonText}>
               {refreshing ? 'Updating...' : 'Refresh Data'}
             </Text>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            style={styles.aiButton} 
+            onPress={openAIAssistant}
+          >
+            <MessageCircle size={20} color="#FFFFFF" />
+            <Text style={styles.aiButtonText}>Ask AI Assistant</Text>
           </TouchableOpacity>
         </View>
 
@@ -311,6 +323,7 @@ const styles = StyleSheet.create({
   },
   quickActions: {
     paddingVertical: 16,
+    flexDirection: 'row',
   },
   refreshButton: {
     backgroundColor: '#16A34A',
@@ -321,8 +334,27 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 12,
     minHeight: 52,
+    flex: 1,
   },
   refreshButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: '600',
+    marginLeft: 8,
+  },
+  aiButton: {
+    backgroundColor: '#3B82F6',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 14,
+    paddingHorizontal: 20,
+    borderRadius: 12,
+    minHeight: 52,
+    flex: 1,
+    marginLeft: 12,
+  },
+  aiButtonText: {
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: '600',
